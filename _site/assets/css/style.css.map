@@ -1,0 +1,34 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/style.scss",
+		"_sass/variables.scss",
+		"_sass/common.scss",
+		"_sass/typography.scss",
+		"_sass/utilities.scss",
+		"_sass/components/index.scss",
+		"_sass/components/navigation.scss",
+		"_sass/components/profilepic.scss",
+		"_sass/components/header.scss",
+		"_sass/components/list.scss",
+		"_sass/components/socialicons.scss"
+	],
+	"sourcesContent": [
+		"@import 'style';",
+		"@import \"variables\";\r\n@import \"common\";\r\n@import \"typography\";\r\n@import \"utilities\";\r\n@import \"components/index.scss\";\r\n\r\n// @import \"../node_modules/bootstrap/scss/functions\";\r\n// @import \"../node_modules/bootstrap/scss/variables\";\r\n// @import \"../node_modules/bootstrap/scss/mixins\";\r\n// @import \"../node_modules/bootstrap/scss/root\";\r\n// @import \"../node_modules/bootstrap/scss/reboot\";\r\n// @import \"../node_modules/bootstrap/scss/type\";\r\n// @import \"../node_modules/bootstrap/scss/images\";\r\n// @import \"../node_modules/bootstrap/scss/code\";\r\n// @import \"../node_modules/bootstrap/scss/grid\";\r\n// @import \"../node_modules/bootstrap/scss/tables\";\r\n// @import \"../node_modules/bootstrap/scss/forms\";\r\n// @import \"../node_modules/bootstrap/scss/buttons\";\r\n// @import \"../node_modules/bootstrap/scss/transitions\";\r\n// @import \"../node_modules/bootstrap/scss/dropdown\";\r\n// @import \"../node_modules/bootstrap/scss/button-group\";\r\n// @import \"../node_modules/bootstrap/scss/input-group\";\r\n// @import \"../node_modules/bootstrap/scss/custom-forms\";\r\n// @import \"../node_modules/bootstrap/scss/nav\";\r\n// @import \"../node_modules/bootstrap/scss/navbar\";\r\n// @import \"../node_modules/bootstrap/scss/card\";\r\n// @import \"../node_modules/bootstrap/scss/breadcrumb\";\r\n// @import \"../node_modules/bootstrap/scss/pagination\";\r\n// @import \"../node_modules/bootstrap/scss/badge\";\r\n// @import \"../node_modules/bootstrap/scss/jumbotron\";\r\n// @import \"../node_modules/bootstrap/scss/alert\";\r\n// @import \"../node_modules/bootstrap/scss/progress\";\r\n// @import \"../node_modules/bootstrap/scss/media\";\r\n// @import \"../node_modules/bootstrap/scss/list-group\";\r\n// @import \"../node_modules/bootstrap/scss/close\";\r\n// @import \"../node_modules/bootstrap/scss/toasts\";\r\n// @import \"../node_modules/bootstrap/scss/modal\";\r\n// @import \"../node_modules/bootstrap/scss/tooltip\";\r\n// @import \"../node_modules/bootstrap/scss/popover\";\r\n// @import \"../node_modules/bootstrap/scss/carousel\";\r\n// @import \"../node_modules/bootstrap/scss/spinners\";\r\n// @import \"../node_modules/bootstrap/scss/utilities\";\r\n// @import \"../node_modules/bootstrap/scss/print\";\r\n",
+		"$dark: #000;\r\n",
+		"",
+		".text-sm {\r\n    font-size: 12px;\r\n}\r\n\r\n.text-center {\r\n    text-align: center;\r\n}\r\n\r\n.text-right {\r\n    text-align: right;\r\n}\r\n\r\n.text-white{\r\n    color: #fff;\r\n}",
+		".mt-10 {\r\n    margin-top: 10px;\r\n}\r\n\r\n.mt-50 {\r\n    margin-top: 50px;\r\n}\r\n\r\n.mb-0{\r\n    margin-bottom: 0;\r\n}",
+		"@import \"navigation.scss\";\r\n@import \"profilepic.scss\";\r\n@import \"header.scss\";\r\n@import \"list.scss\";\r\n@import \"socialicons.scss\";",
+		".cm-navigation {\r\n    ul {\r\n        li {\r\n            display: inline-block;\r\n            padding: 10px 5px;\r\n            margin-bottom: 0;\r\n            line-height: 13px;\r\n            a {\r\n                color: #fff;\r\n                font-size: 13px;\r\n            }\r\n        }\r\n    }\r\n}\r\n",
+		".profilepic {\r\n    img {\r\n        border-radius: 50%;\r\n        padding:2px;\r\n        box-shadow: 0 3px 14px 0 rgba(0,0,0,.12);\r\n    }\r\n}\r\n",
+		"header {\r\n    background: $dark;\r\n\r\n    .cm-header-title {\r\n        font-size: 18px;\r\n        line-height: 34px;\r\n        margin-bottom: 0;\r\n    }\r\n}\r\n",
+		".list-unstyled {\r\n    list-style-type: none;\r\n    margin: 0;\r\n    padding: 0;\r\n\r\n    &.list-inline{\r\n        li{\r\n            display: inline-block;\r\n        }\r\n    }\r\n}\r\n",
+		".socialicons {\r\n    img {\r\n        width: 45px;\r\n        margin: 0 5px;\r\n        transition: .3s ease;\r\n\r\n        &:hover{\r\n            transform: scale(1.2);\r\n        }\r\n    }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AIAA,AAAA,QAAQ,AAAC,CACL,SAAS,CAAE,IAAI,CAClB,AAED,AAAA,YAAY,AAAC,CACT,UAAU,CAAE,MAAM,CACrB,AAED,AAAA,WAAW,AAAC,CACR,UAAU,CAAE,KAAK,CACpB,AAED,AAAA,WAAW,AAAA,CACP,KAAK,CAAE,IAAI,CACd,ACdD,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,IAAI,CACnB,AAED,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,IAAI,CACnB,AAED,AAAA,KAAK,AAAA,CACD,aAAa,CAAE,CAAC,CACnB,AEVD,AAEQ,cAFM,CACV,EAAE,CACE,EAAE,AAAC,CACC,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,QAAQ,CACjB,aAAa,CAAE,CAAC,CAChB,WAAW,CAAE,IAAI,CAKpB,AAXT,AAOY,cAPE,CACV,EAAE,CACE,EAAE,CAKE,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,IAAI,CAClB,ACVb,AACI,WADO,CACP,GAAG,AAAC,CACA,aAAa,CAAE,GAAG,CAClB,OAAO,CAAC,GAAG,CACX,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,gBAAe,CAC3C,ACLL,AAAA,MAAM,AAAC,CACH,UAAU,CPDP,IAAI,COQV,AARD,AAGI,MAHE,CAGF,gBAAgB,AAAC,CACb,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,aAAa,CAAE,CAAC,CACnB,ACPL,AAAA,cAAc,AAAC,CACX,eAAe,CAAE,IAAI,CACrB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAOb,AAVD,AAMQ,cANM,AAKT,YAAY,CACT,EAAE,AAAA,CACE,OAAO,CAAE,YAAY,CACxB,ACRT,AACI,YADQ,CACR,GAAG,AAAC,CACA,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,QAAQ,CAKvB,AATL,AAMQ,YANI,CACR,GAAG,CAKG,KAAK,AAAA,CACH,SAAS,CAAE,UAAU,CACxB"
+}
